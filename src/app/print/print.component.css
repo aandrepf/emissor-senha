@@ -1,0 +1,38 @@
+@font-face {
+  font-family: gilroyB;
+  src: url('./../../fonts/gilroy-bold-webfont.woff2') format('woff2'),
+       url('./../../fonts/gilroy-bold-webfont.woff') format('woff'),
+       url('./../../fonts/gilroy-bold-webfont.ttf') format('truetype');
+  font-weight: normal;font-style: normal;
+}
+.print-default-message {
+    height: 1150px;
+    width: 100%;
+    margin: 0 0 0 -13px;
+}
+.print-msg-wpr.h-100.row.align-items-center {
+  text-align: center;
+  margin-right: 0px;
+}
+p {
+  color: #ffffff;
+  font-family: gilroyB;
+  width: 100%;
+  font-size: 30pt;
+  line-height: 32pt;
+}
+p.error-msg {
+  margin: 70px 0 0;
+}
+i.fa.fa-print.fa-4x, i.fa.fa-warning.fa-4x {
+  font-size: 5em;
+  margin: 50px 0 0;
+}
+.msg-senha {
+  margin-top: 200px;
+}
+p.senha {
+  font-size: 130pt;
+  line-height: 180pt;
+  margin: 120px 0;
+}

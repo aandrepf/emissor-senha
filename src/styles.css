@@ -1,0 +1,83 @@
+@font-face {
+  font-family: gilroyB;
+  src: url('./fonts/gilroy-bold-webfont.woff2') format('woff2'),
+       url('./fonts/gilroy-bold-webfont.woff') format('woff'),
+       url('./fonts/gilroy-bold-webfont.ttf') format('truetype');
+  font-weight: normal;font-style: normal;
+}
+@font-face {
+  font-family: gilroyR;
+  src: url('./fonts/gilroy-regular-webfont.woff2') format('woff2'),
+       url('./fonts/gilroy-regular-webfont.woff') format('woff'),
+       url('./fonts/gilroy-regular-webfont.ttf') format('truetype');
+  font-weight: normal;font-style: normal;
+}
+
+*{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: none!important;
+  touch-action: none!important;
+}
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+.page-footer {
+  color: #ffffff;
+  display: block;
+  float: left;
+  width: 100%;
+}
+.presentation {
+  font-family: gilroyB;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+.op-left {
+  width: 46%;
+  float: left;
+}
+.op-right {
+  width: 48%;
+  float: left;
+  margin-left: 25px;
+}
+.op-title {
+  font-family: gilroyB;
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.op-description {
+  font-family: gilroyR;
+  font-size: 17px;
+}
+span.upper {
+  text-transform: uppercase;
+}
+.page-qrcode {
+  *background: blue;
+  display: flex;
+  float: right;
+  width: 52%;
+  position: fixed;
+  bottom: 22px;
+  right: 0;
+}
+.qrc-text {
+  display: inline-block;
+  margin-right: 25px;
+  padding-top: 30px;
+}
+.qrc-text p {
+  color: #fff;
+  font-family: gilroyM;
+  font-size: 25px;
+  line-height: 23px;
+  text-align: right;
+}

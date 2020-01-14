@@ -1,0 +1,490 @@
+{
+	"InterfaceEmissorPagina": [{
+		"Id": 1,
+		"Descr": "Página Principal",
+		"IconePrioritario": false,
+		"BtnVoltar": false,
+		"MsgExtra": "<p class='presentation'>Confira as opções de atendimento que o banco preparou para você:</p>\n<div class='op-left'>\n<p class='op-title'>Correntistas:</p>\n<p class='op-Description'>Débito Automático | Autoatendimento | Internet Banking | Bradesco Celular | DDA Fone-Fácil | Bradesco Expresso</p>\n</div>\n<div class='op-right'>\n<p class='op-title'>Não Correntistas:</p>\n<p class='op-Description'>Bradesco Expresso (Veja a relação na Agência) | Use o Autoatendimento para pagamento com cartões de outros Bancos</p>\n</div>",
+		"InterfaceEmissorTituloPagina": [{
+			"Id": 1,
+			"IdEmissorPagina": 1,
+			"TextoPagina": "Seja",
+			"TamanhoFonte": 44,
+			"Negrito": false,
+			"PosicaoTexto": 2
+		}, {
+			"Id": 2,
+			"IdEmissorPagina": 1,
+			"TextoPagina": "Bem Vindo!",
+			"TamanhoFonte": 44,
+			"Negrito": false,
+			"PosicaoTexto": 2
+		}],
+		"InterfaceEmissorLink": [{
+			"Id": 1,
+			"IdEmissorPagina": 1,
+			"Descr": "Link para páginas de gerência",
+			"TipoBotao": 2,
+			"TamanhoBotaolink": 14,
+			"IconePrioritario": false,
+			"IdEmissorPaginasDestino": 4,
+			"InterfaceEmissorTituloLink": [{
+				"Id": 1,
+				"IdEmissorPagina": 1,
+				"IdLink": 1,
+				"TextoLink": "Gerência de Atendimento",
+				"TamanhoFonte": 19,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}, {
+				"Id": 2,
+				"IdEmissorPagina": 1,
+				"IdLink": 1,
+				"TextoLink": "Abertura de Contas",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}, {
+				"Id": 3,
+				"IdEmissorPagina": 1,
+				"IdLink": 1,
+				"TextoLink": "Empréstimos",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}, {
+				"Id": 4,
+				"IdEmissorPagina": 1,
+				"IdLink": 1,
+				"TextoLink": "Financiamentos ",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}, {
+				"Id": 5,
+				"IdEmissorPagina": 1,
+				"IdLink": 1,
+				"TextoLink": "Outros Serviços",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}]
+		}, {
+			"Id": 2,
+			"IdEmissorPagina": 1,
+			"Descr": "Link para páginas de caixa",
+			"TipoBotao": 2,
+			"TamanhoBotaolink": 14,
+			"IconePrioritario": false,
+			"IdEmissorPaginasDestino": 2,
+			"InterfaceEmissorTituloLink": [{
+				"Id": 6,
+				"IdEmissorPagina": 1,
+				"IdLink": 2,
+				"TextoLink": "Caixa",
+				"TamanhoFonte": 19,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}, {
+				"Id": 7,
+				"IdEmissorPagina": 1,
+				"IdLink": 2,
+				"TextoLink": "Pagamentos e recebimentos",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}, {
+				"Id": 8,
+				"IdEmissorPagina": 1,
+				"IdLink": 2,
+				"TextoLink": "*Retirada de:",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}, {
+				"Id": 9,
+				"IdEmissorPagina": 1,
+				"IdLink": 2,
+				"TextoLink": "Cartão de Débito",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}, {
+				"Id": 10,
+				"IdEmissorPagina": 1,
+				"IdLink": 2,
+				"TextoLink": "Cheque Devolvido",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}, {
+				"Id": 11,
+				"IdEmissorPagina": 1,
+				"IdLink": 2,
+				"TextoLink": "Talão de Cheques",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}]
+		}],
+		"InterfaceEmissorTituloLink": [{
+			"Id": 6,
+			"IdEmissorPagina": 1,
+			"IdLink": 2,
+			"TextoLink": "Caixa",
+			"TamanhoFonte": 19,
+			"Negrito": false,
+			"PosicaoTexto": 3
+		}, {
+			"Id": 7,
+			"IdEmissorPagina": 1,
+			"IdLink": 2,
+			"TextoLink": "Pagamentos e recebimentos",
+			"TamanhoFonte": 14,
+			"Negrito": false,
+			"PosicaoTexto": 3
+		}, {
+			"Id": 8,
+			"IdEmissorPagina": 1,
+			"IdLink": 2,
+			"TextoLink": "*Retirada de:",
+			"TamanhoFonte": 14,
+			"Negrito": false,
+			"PosicaoTexto": 3
+		}, {
+			"Id": 9,
+			"IdEmissorPagina": 1,
+			"IdLink": 2,
+			"TextoLink": "Cartão de Débito",
+			"TamanhoFonte": 14,
+			"Negrito": false,
+			"PosicaoTexto": 3
+		}, {
+			"Id": 10,
+			"IdEmissorPagina": 1,
+			"IdLink": 2,
+			"TextoLink": "Cheque Devolvido",
+			"TamanhoFonte": 14,
+			"Negrito": false,
+			"PosicaoTexto": 3
+		}, {
+			"Id": 11,
+			"IdEmissorPagina": 1,
+			"IdLink": 2,
+			"TextoLink": "Talão de Cheques",
+			"TamanhoFonte": 14,
+			"Negrito": false,
+			"PosicaoTexto": 3
+		}],
+		"InterfaceEmissorBotao": [{
+			"Id": 17,
+			"IdEmissorPagina": 1,
+			"IdBotao": 11,
+			"TextoBotao": "Gerente exclusive",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 2,
+			"DescLocalAtendimento": "GERÊNCIA",
+			"HasImage": true,
+			"NomeImage": "btn_exclusive.png"
+		}, {
+			"Id": 18,
+			"IdEmissorPagina": 1,
+			"IdBotao": 12,
+			"TextoBotao": "Gerente prime",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 2,
+			"DescLocalAtendimento": "GERÊNCIA",
+			"HasImage": true,
+			"NomeImage": "btn_prime.png"
+		}, {
+			"Id": 19,
+			"IdEmissorPagina": 1,
+			"IdBotao": 8,
+			"TextoBotao": "*Seguros, Previdência, Automóvel e Residência, Saúde, Vida, Dental",
+			"TipoBotao": 3,
+			"TamanhoBotao": 13,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 2,
+			"DescLocalAtendimento": "GERÊNCIA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}]
+	}, {
+		"Id": 2,
+		"Descr": "Página Caixa",
+		"IconePrioritario": false,
+		"BtnVoltar": true,
+		"MsgExtra": "<p class='presentation'>Confira as opções de atendimento que o banco preparou para você:</p>\n<div class='op-left'>\n<p class='op-title'>Correntistas:</p>\n<p class='op-Description'>Débito Automático | Autoatendimento | Internet Banking | Bradesco Celular | DDA Fone-Fácil | Bradesco Expresso</p>\n</div>\n<div class='op-right'>\n<p class='op-title'>Não Correntistas:</p>\n<p class='op-Description'>Bradesco Expresso (Veja a relação na Agência) | Use o Autoatendimento para pagamento com cartões de outros Bancos</p>\n</div>",
+		"InterfaceEmissorTituloPagina": [{
+			"Id": 3,
+			"IdEmissorPagina": 2,
+			"TextoPagina": "Caixa",
+			"TamanhoFonte": 44,
+			"Negrito": false,
+			"PosicaoTexto": 2
+		}],
+		"InterfaceEmissorLink": [{
+			"Id": 3,
+			"IdEmissorPagina": 2,
+			"Descr": "Link para páginas de caixa prioritário",
+			"TipoBotao": 2,
+			"TamanhoBotaolink": 14,
+			"IconePrioritario": true,
+			"IdEmissorPaginasDestino": 3,
+			"InterfaceEmissorTituloLink": [{
+				"Id": 12,
+				"IdEmissorPagina": 2,
+				"IdLink": 3,
+				"TextoLink": "Atendimentos Prioritários",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}]
+		}],
+		"InterfaceEmissorTituloLink": [{
+			"Id": 12,
+			"IdEmissorPagina": 2,
+			"IdLink": 3,
+			"TextoLink": "Atendimentos Prioritários",
+			"TamanhoFonte": 14,
+			"Negrito": false,
+			"PosicaoTexto": 3
+		}],
+		"InterfaceEmissorBotao": [{
+			"Id": 5,
+			"IdEmissorPagina": 2,
+			"IdBotao": 1,
+			"TextoBotao": "Pagamentos e Recebimentos ",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 1,
+			"DescLocalAtendimento": "CAIXA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}, {
+			"Id": 6,
+			"IdEmissorPagina": 2,
+			"IdBotao": 3,
+			"TextoBotao": "Caixa Prime ",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 1,
+			"DescLocalAtendimento": "CAIXA",
+			"HasImage": true,
+			"NomeImage": "btn_prime.png"
+		}, {
+			"Id": 7,
+			"IdEmissorPagina": 2,
+			"IdBotao": 4,
+			"TextoBotao": "Caixa Exclusive ",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 1,
+			"DescLocalAtendimento": "CAIXA",
+			"HasImage": true,
+			"NomeImage": "btn_exclusive.png"
+		}, {
+			"Id": 8,
+			"IdEmissorPagina": 2,
+			"IdBotao": 9,
+			"TextoBotao": "Retirada de Cartão de Débito Cheque Devolvido Talão de Cheque",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 1,
+			"DescLocalAtendimento": "CAIXA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}]
+	}, {
+		"Id": 3,
+		"Descr": "Página Caixa Prioritário",
+		"IconePrioritario": true,
+		"BtnVoltar": true,
+		"MsgExtra": "<p class='presentation'>Confira as opções de atendimento que o banco preparou para você:</p>\n<div class='op-left'>\n<p class='op-title'>Correntistas:</p>\n<p class='op-Description'>Débito Automático | Autoatendimento | Internet Banking | Bradesco Celular | DDA Fone-Fácil | Bradesco Expresso</p>\n</div>\n<div class='op-right'>\n<p class='op-title'>Não Correntistas:</p>\n<p class='op-Description'>Bradesco Expresso (Veja a relação na Agência) | Use o Autoatendimento para pagamento com cartões de outros Bancos</p>\n</div>",
+		"InterfaceEmissorTituloPagina": [{
+			"Id": 4,
+			"IdEmissorPagina": 3,
+			"TextoPagina": "Caixa",
+			"TamanhoFonte": 44,
+			"Negrito": false,
+			"PosicaoTexto": 2
+		}, {
+			"Id": 5,
+			"IdEmissorPagina": 3,
+			"TextoPagina": "Prioritário",
+			"TamanhoFonte": 44,
+			"Negrito": false,
+			"PosicaoTexto": 2
+		}],
+		"InterfaceEmissorLink": [],
+		"InterfaceEmissorTituloLink": [],
+		"InterfaceEmissorBotao": [{
+			"Id": 9,
+			"IdEmissorPagina": 3,
+			"IdBotao": 2,
+			"TextoBotao": "Caixa Prioritário Pagamentos e Recebimentos",
+			"TipoBotao": 3,
+			"TamanhoBotao": 12,
+			"IconePrioritario": false,
+			"IdLocalAtendimento": 1,
+			"DescLocalAtendimento": "CAIXA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}, {
+			"Id": 10,
+			"IdEmissorPagina": 3,
+			"IdBotao": 14,
+			"TextoBotao": "Caixa clientes acima de 80 anos de idade",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": false,
+			"IdLocalAtendimento": 1,
+			"DescLocalAtendimento": "CAIXA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}, {
+			"Id": 11,
+			"IdEmissorPagina": 3,
+			"IdBotao": 15,
+			"TextoBotao": "*Retirada de, Cartão de Débito, Cheque Devolvido, Talão de Cheque",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": false,
+			"IdLocalAtendimento": 1,
+			"DescLocalAtendimento": "CAIXA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}]
+	}, {
+		"Id": 4,
+		"Descr": "Página Gerência",
+		"IconePrioritario": false,
+		"BtnVoltar": true,
+		"MsgExtra": "<p class='presentation'>Confira as opções de atendimento que o banco preparou para você:</p>\n<div class='op-left'>\n<p class='op-title'>Correntistas:</p>\n<p class='op-Description'>Débito Automático | Autoatendimento | Internet Banking | Bradesco Celular | DDA Fone-Fácil | Bradesco Expresso</p>\n</div>\n<div class='op-right'>\n<p class='op-title'>Não Correntistas:</p>\n<p class='op-Description'>Bradesco Expresso (Veja a relação na Agência) | Use o Autoatendimento para pagamento com cartões de outros Bancos</p>\n</div>",
+		"InterfaceEmissorTituloPagina": [{
+			"Id": 6,
+			"IdEmissorPagina": 4,
+			"TextoPagina": "Gerência de",
+			"TamanhoFonte": 44,
+			"Negrito": false,
+			"PosicaoTexto": 2
+		}, {
+			"Id": 7,
+			"IdEmissorPagina": 4,
+			"TextoPagina": "Atendimento",
+			"TamanhoFonte": 44,
+			"Negrito": false,
+			"PosicaoTexto": 2
+		}],
+		"InterfaceEmissorLink": [{
+			"Id": 4,
+			"IdEmissorPagina": 4,
+			"Descr": "Link para páginas de gerência prioritário",
+			"TipoBotao": 2,
+			"TamanhoBotaolink": 14,
+			"IconePrioritario": true,
+			"IdEmissorPaginasDestino": 5,
+			"InterfaceEmissorTituloLink": [{
+				"Id": 13,
+				"IdEmissorPagina": 4,
+				"IdLink": 4,
+				"TextoLink": "Atendimentos Prioritários",
+				"TamanhoFonte": 14,
+				"Negrito": false,
+				"PosicaoTexto": 3
+			}]
+		}],
+		"InterfaceEmissorTituloLink": [{
+			"Id": 13,
+			"IdEmissorPagina": 4,
+			"IdLink": 4,
+			"TextoLink": "Atendimentos Prioritários",
+			"TamanhoFonte": 14,
+			"Negrito": false,
+			"PosicaoTexto": 3
+		}],
+		"InterfaceEmissorBotao": [{
+			"Id": 12,
+			"IdEmissorPagina": 4,
+			"IdBotao": 18,
+			"TextoBotao": "Abertura de contas Empréstimos Financiamentos",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 2,
+			"DescLocalAtendimento": "GERÊNCIA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}, {
+			"Id": 13,
+			"IdEmissorPagina": 4,
+			"IdBotao": 10,
+			"TextoBotao": "*Outros serviços, Pedido de cartão, Prova de vida, Solicitações diversas",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 2,
+			"DescLocalAtendimento": "GERÊNCIA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}]
+	}, {
+		"Id": 5,
+		"Descr": "Página Gerência Prioritário",
+		"IconePrioritario": true,
+		"BtnVoltar": true,
+		"MsgExtra": "<p class='presentation'>Confira as opções de atendimento que o banco preparou para você:</p>\n<div class='op-left'>\n<p class='op-title'>Correntistas:</p>\n<p class='op-Description'>Débito Automático | Autoatendimento | Internet Banking | Bradesco Celular | DDA Fone-Fácil | Bradesco Expresso</p>\n</div>\n<div class='op-right'>\n<p class='op-title'>Não Correntistas:</p>\n<p class='op-Description'>Bradesco Expresso (Veja a relação na Agência) | Use o Autoatendimento para pagamento com cartões de outros Bancos</p>\n</div>",
+		"InterfaceEmissorTituloPagina": [{
+			"Id": 8,
+			"IdEmissorPagina": 5,
+			"TextoPagina": "Gerência",
+			"TamanhoFonte": 44,
+			"Negrito": false,
+			"PosicaoTexto": 2
+		}, {
+			"Id": 9,
+			"IdEmissorPagina": 5,
+			"TextoPagina": "Prioritário",
+			"TamanhoFonte": 44,
+			"Negrito": false,
+			"PosicaoTexto": 2
+		}],
+		"InterfaceEmissorLink": [],
+		"InterfaceEmissorTituloLink": [],
+		"InterfaceEmissorBotao": [{
+			"Id": 14,
+			"IdEmissorPagina": 5,
+			"IdBotao": 19,
+			"TextoBotao": "Gerência Prioritário Abertura de contas Empréstimos Financiamentos",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": true,
+			"IdLocalAtendimento": 2,
+			"DescLocalAtendimento": "GERÊNCIA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}, {
+			"Id": 15,
+			"IdEmissorPagina": 5,
+			"IdBotao": 16,
+			"TextoBotao": "Gerência clientes acima de 80 anos de idade",
+			"TipoBotao": 3,
+			"TamanhoBotao": 14,
+			"IconePrioritario": false,
+			"IdLocalAtendimento": 2,
+			"DescLocalAtendimento": "GERÊNCIA",
+			"HasImage": true,
+			"NomeImage": "btn_branco.png"
+		}]
+	}],
+	"retcode": 0,
+	"retmsg": ""
+}
